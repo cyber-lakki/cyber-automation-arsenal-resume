@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail, Phone, Linkedin, Github, Send } from 'lucide-react';
 import Section from '@/components/Section';
@@ -35,9 +34,9 @@ const projects = [
     result: "Eliminated manual conversion errors and saved time."
   },
   {
-    title: "Centralized GUI (In Development)",
-    description: "Currently building an integrated GUI application to bring all my automation tools into a single, user-friendly interface.",
-    result: "Future-focused on creating a unified VAPT toolkit."
+    title: "Centralized GUI",
+    description: "A full-fledged Python GUI-based application that automates report preparation, normalization, consolidation, and segregation of reports under one roof.",
+    result: "Unified all automation tools into a single, efficient interface."
   }
 ];
 

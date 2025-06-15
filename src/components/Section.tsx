@@ -1,11 +1,11 @@
 
-import { motion } from 'framer-motion';
+import { motion, HTMLMotionProps } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import React from 'react';
 
-interface SectionProps extends React.HTMLAttributes<HTMLElement> {
+type SectionProps = HTMLMotionProps<'section'> & {
   children: React.ReactNode;
-}
+};
 
 const Section = React.forwardRef<HTMLElement, SectionProps>(({ children, className, ...props }, ref) => {
   return (
@@ -28,3 +28,4 @@ const Section = React.forwardRef<HTMLElement, SectionProps>(({ children, classNa
 Section.displayName = 'Section';
 
 export default Section;
+
